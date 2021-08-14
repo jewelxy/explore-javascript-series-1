@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h3 id="title">Exploring DOM</h3>
+            <p>This is first paragraph</p>
+            <p>This is second paragraph</p>
+        </section>
+
+        <section>
+            <h3 id="title2">Exploring Dom 2nd Tricks</h3>
+            <!--article*3>h3{article -$}+p.author{author-$}+p.description>lorem30-->
+            <article >
+                <h3>article -1</h3>
+                <p class="author">author-1</p>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam non ipsa explicabo sunt minima! Magni perferendis veritatis reprehenderit nulla laborum labore esse illum sapiente, ex, quaerat voluptatum dicta exercitationem ab!</p>
+            </article>
+            <article class="special">
+                <h3>article -2</h3>
+                <p class="author">author-2</p>
+                <p class="description">Omnis, molestias? Sapiente magni eveniet et similique fuga consequatur? Reprehenderit expedita beatae, inventore corporis distinctio molestias consequuntur laborum ex eum eligendi veritatis nostrum necessitatibus eaque praesentium, quibusdam quos aperiam rerum?</p>
+            </article>
+            <article class="special">
+                <h3>article -3</h3>
+                <p class="author">author-3</p>
+                <p class="description">Alias molestias blanditiis, architecto cupiditate dolorem culpa fugit, facere asperiores reiciendis quam ad accusamus tenetur cum natus? Optio, autem! Fugit exercitationem ratione quod repellendus natus corrupti veritatis expedita perspiciatis placeat?</p>
+            </article>
+        
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
